@@ -58,7 +58,6 @@ public class AddressService extends Util implements AddressDAO {
         List<String> addresses = new ArrayList<>();
         //language=sql
         String sql = "SELECT * FROM ipaddresses";
-
         try{
             statement = connection.createStatement();
             ResultSet set = statement.executeQuery(sql);

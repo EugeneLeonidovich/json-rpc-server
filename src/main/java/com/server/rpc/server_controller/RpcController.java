@@ -1,6 +1,6 @@
 package com.server.rpc.server_controller;
 
-import RequestMethods.Methods;
+import com.server.rpc.RequestMethods.Methods;
 import com.server.rpc.DAOAddress.AddressDAO;
 import com.server.rpc.address.AddressService;
 import com.server.rpc.data.JsonRpcError;

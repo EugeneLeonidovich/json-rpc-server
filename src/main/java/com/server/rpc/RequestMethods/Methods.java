@@ -1,4 +1,4 @@
-package RequestMethods;
+package com.server.rpc.RequestMethods;
 
 import com.server.rpc.Constants.Text;
 import com.server.rpc.DAOAddress.AddressDAO;

@@ -1,10 +1,10 @@
 package com.server.rpc.server_controller;
 
-import com.server.rpc.RequestMethods.Methods;
 import com.server.rpc.DAOAddress.AddressDAO;
 import com.server.rpc.address.AddressService;
 import com.server.rpc.data.JsonRpcError;
 import com.server.rpc.data.JsonRpcKeys;
+import com.server.rpc.methods.Methods;
 import org.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
